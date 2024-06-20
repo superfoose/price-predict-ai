@@ -31,15 +31,15 @@ from indicators.sma_ml import ml_sma
 from indicators.pre_low import pre_low
 
 ###########  Gabbay trading keys   #######################
-API_KEYg = "PKN9S8GOGNR3UNGANJT5"
-API_SECRETg = "N1NsetJpmBAhSNZB7CViBOgIB9bQCAvBhfHsfodC"
+API_KEYg = "######"
+API_SECRETg = "#####"
 
 
 # from indicators.loss_ai import ml_indicator
 from indicators.ml_ind import ml_ind
 
-API_KEY = 'PKLJ044DDL0ODIQ93YRD'
-API_SECRET = 'Vb7sat3km82i4p6MC56QcPzHzeCUQIgNRj2dA9LD'
+API_KEY = '#########'
+API_SECRET = '#############'
 BASE_URL = 'https://paper-api.alpaca.markets'  # Use 'https://api.alpaca.markets' for live trading
 # Create an instance of the Alpaca API
 api = tradeapi.REST(API_KEY, API_SECRET, base_url=BASE_URL, api_version='v2')
